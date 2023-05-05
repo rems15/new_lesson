@@ -59,6 +59,12 @@ li{
 .sample{
     background-color: white;
     padding:4px;
+    border-radius: 10px;
+}
+
+.sample1 .dropdown{
+    position: absolute;
+    display: inline-block;
 }
 
 
@@ -66,10 +72,13 @@ li{
     display: none;
     background-color: white;
     min-width: 100px;
-    box-shadow: 10px 10px 20px 20px grey;
+    box-shadow: 5px 5px 5px 5px green;
+    position:absolute;
+    z-index:1;
+    border-radius: 5px;
 }
 
-.sample1 .dropdown-content{
+.sample1 .dropdown:hover .dropdown-content{
     display: block;
 }
 
