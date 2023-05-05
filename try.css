@@ -1,0 +1,75 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: black;
+    margin: 0;
+    color: green;
+
+}
+
+h2{
+    color:green;
+
+}
+
+p{
+    color: white;
+}
+
+a.active{
+    text-decoration: none;
+    color:black;
+    font-size: 15pt;
+    padding: 3pt;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 15pt;
+    padding: 3pt;
+    border-radius: 5px;
+}
+
+a.active:hover{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    
+}
+a:hover{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    
+}
+
+
+.sample{
+    background-color: white;
+    padding:4px;
+}
+
+
+.sample1 .dropdown-content{
+    display: none;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 10px 10px 20px 20px grey;
+}
+
+.sample1 .dropdown-content{
+    display: block;
+}
+
